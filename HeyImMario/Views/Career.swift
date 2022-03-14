@@ -9,7 +9,18 @@ import SwiftUI
 
 struct Career: View {
     var body: some View {
-        Text("Professional Career")
+        NavigationView{
+            VStack{
+                Image("career")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 160, height: 160)
+                
+                Spacer()
+            }
+            .navigationTitle("My Career")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 

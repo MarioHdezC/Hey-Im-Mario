@@ -10,6 +10,7 @@ import SwiftUI
 struct Contact: View {
     
     @Environment(\.openURL) private var openURL
+	@State private var aboutIsOpen = false
     
     var body: some View {
         NavigationView {
@@ -41,12 +42,39 @@ struct Contact: View {
                     }
                 
                 Spacer()
+				
+				Button {
+					aboutIsOpen = true
+				} label: {
+					Text("About the App")
+				}
+				.sheet(isPresented: $aboutIsOpen) {
+					SheetView()
+				}
+
             }
             .navigationTitle("Contact me")
             .navigationBarTitleDisplayMode(.inline)
             .padding()
         }
     }
+}
+
+struct SheetView: View {
+	@Environment(\.dismiss) var dismiss
+
+	var body: some View {
+		VStack(spacing: 30){
+			Text("The purpose of this app is to share my personal and profesional information using the new Apple's development framework **SwiftUI**.\n\nThanks for downloading 🙂,\n\nMario.")
+				.font(.title3)
+				.padding(.horizontal, 16)
+			Button {
+				dismiss()
+			} label: {
+				Text("Close")
+			}
+		}
+	}
 }
 
 struct Contact_Previews: PreviewProvider {

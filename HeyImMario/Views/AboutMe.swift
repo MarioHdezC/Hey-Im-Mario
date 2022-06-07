@@ -20,7 +20,7 @@ struct AboutMe: View {
                     .font(.title)
                     .padding()
                 
-                Text("A 25 year old software engineer from Spain.\n\nI'm currently working at NTT Data Spain, with the iOS team. \n\nI love mobile app creation, especialy iOS mobile Apps with SwiftUI and UIKit.\n\nAn absolutly IT passionate who wants to be part of this wonderful community creating helpful apps for everybody.")
+                Text("A 25 year old software engineer from Spain.\n\nI'm currently working at NTT Data Spain, at the iOS team. \n\nI love mobile app creation, especially iOS mobile Apps with SwiftUI and UIKit.\n\nAn absolutly IT passionate who wants to be part of this wonderful community creating helpful apps for everybody.")
                     .padding()
                 
                 Spacer()

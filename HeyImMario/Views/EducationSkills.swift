@@ -24,8 +24,6 @@ struct EducationSkills: View {
                                 .font(.title3)
                                 .fontWeight(.bold)
                                 .padding()
-                            
-                            Spacer()
                         }
                         
                         Text("Degree in Software Engineering @ University of Salamanca, Spain")
@@ -36,8 +34,6 @@ struct EducationSkills: View {
                                 .font(.title3)
                                 .fontWeight(.bold)
                                 .padding()
-                            
-                            Spacer()
                         }
                         
                         VStack(alignment: .leading){
@@ -59,8 +55,6 @@ struct EducationSkills: View {
                                 .font(.title3)
                                 .fontWeight(.bold)
                                 .padding()
-                            
-                            Spacer()
                         }
                         
                         VStack(alignment: .leading){
@@ -74,9 +68,6 @@ struct EducationSkills: View {
                                 .padding(EdgeInsets(top: 0, leading: 45, bottom: 10, trailing: 10))
                             
                             Text("Adaptability")
-                                .padding(EdgeInsets(top: 0, leading: 45, bottom: 10, trailing: 10))
-                            
-                            Text("iOS mobile app development with SwiftUI and UIKit")
                                 .padding(EdgeInsets(top: 0, leading: 45, bottom: 10, trailing: 10))
                         }
                     }

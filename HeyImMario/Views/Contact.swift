@@ -10,7 +10,10 @@ import SwiftUI
 struct Contact: View {
     
     @Environment(\.openURL) private var openURL
+	
 	@State private var aboutIsOpen = false
+	
+	var emailAdress =  "mariohdezdev@gmail.com"
     
     var body: some View {
         NavigationView {
@@ -18,7 +21,7 @@ struct Contact: View {
                 
                 ContactCell(iconName: "envelope.fill", contactTitle: "Email", contactBody: "mariohdezdev@gmail.com", circleColor: Color.green)
                     .onTapGesture {
-                        //
+						sendEmail()
                     }
                 
                 ContactCell(iconName: "phone.fill", contactTitle: "Phone", contactBody: "+34 655 59 62 96", circleColor: Color.orange)
@@ -58,6 +61,16 @@ struct Contact: View {
             .padding()
         }
     }
+	
+	func sendEmail() {
+		let emailLink = "mailto:" + emailAdress
+		
+		guard let url = URL(string: emailLink) else {
+			return
+		}
+		
+		openURL(url)
+	}
 }
 
 struct SheetView: View {
@@ -65,9 +78,11 @@ struct SheetView: View {
 
 	var body: some View {
 		VStack(spacing: 30){
+			Spacer()
 			Text("The purpose of this app is to share my personal and profesional information using the new Apple's development framework **SwiftUI**.\n\nThanks for downloading 🙂,\n\nMario.")
 				.font(.title3)
 				.padding(.horizontal, 16)
+			Spacer()
 			Button {
 				dismiss()
 			} label: {

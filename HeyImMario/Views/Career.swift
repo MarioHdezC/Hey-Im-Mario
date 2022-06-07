@@ -16,19 +16,9 @@ struct Career: View {
                     .scaledToFit()
                     .frame(width: 160, height: 160)
 				
-				VStack(alignment: .leading) {
-					HStack(){
-						Text("📅 2021 - Present")
-							.font(.title3)
-							.fontWeight(.bold)
-							.padding()
-						
-						Spacer()
-					}
-					
-					Text("iOS Developer @ NTT Data")
-						.padding(EdgeInsets(top: 0, leading: 45, bottom: 0, trailing: 10))
-				}
+				CareerCell(dateTime: "📅 2021 - 2022", careerTitle: "Hybrid Mobile Developer @ NTT Data")
+				
+				CareerCell(dateTime: "📅 2022 - Present", careerTitle: "iOS Developer @ NTT Data")
                 
                 Spacer()
             }

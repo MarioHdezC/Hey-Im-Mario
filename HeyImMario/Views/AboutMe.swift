@@ -33,6 +33,7 @@ struct AboutMe: View {
 
 struct AboutMe_Previews: PreviewProvider {
     static var previews: some View {
-        AboutMe()
+		AboutMe()
+			.preferredColorScheme(.dark)
     }
 }

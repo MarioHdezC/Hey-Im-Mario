@@ -83,6 +83,7 @@ struct EducationSkills: View {
 
 struct EducationSkills_Previews: PreviewProvider {
     static var previews: some View {
-        EducationSkills()
+		EducationSkills()
+			.preferredColorScheme(.dark)
     }
 }

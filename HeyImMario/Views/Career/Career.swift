@@ -31,7 +31,5 @@ struct Career: View {
 struct Career_Previews: PreviewProvider {
     static var previews: some View {
 		Career()
-			.preferredColorScheme(.dark)
-.previewInterfaceOrientation(.portrait)
     }
 }

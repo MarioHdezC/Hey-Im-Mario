@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB23F0EF284F469700143427 /* CareerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23F0EE284F469700143427 /* CareerCell.swift */; };
+		AB34B98E290C761500BD6398 /* AboutMeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34B98D290C761500BD6398 /* AboutMeViewModel.swift */; };
 		AB44EB4627DD52E9005981C1 /* HeyImMarioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB4527DD52E9005981C1 /* HeyImMarioApp.swift */; };
 		AB44EB4827DD52E9005981C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB4727DD52E9005981C1 /* ContentView.swift */; };
 		AB44EB4A27DD52ED005981C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB44EB4927DD52ED005981C1 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		AB23F0EE284F469700143427 /* CareerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerCell.swift; sourceTree = "<group>"; };
+		AB34B98D290C761500BD6398 /* AboutMeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewModel.swift; sourceTree = "<group>"; };
 		AB44EB4227DD52E9005981C1 /* HeyImMario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyImMario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB44EB4527DD52E9005981C1 /* HeyImMarioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeyImMarioApp.swift; sourceTree = "<group>"; };
 		AB44EB4727DD52E9005981C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,72 @@
 			children = (
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		AB34B985290C757C00BD6398 /* AboutMe */ = {
+			isa = PBXGroup;
+			children = (
+				AB34B989290C75EF00BD6398 /* Models */,
+				AB44EB5327DD5345005981C1 /* AboutMe.swift */,
+			);
+			path = AboutMe;
+			sourceTree = "<group>";
+		};
+		AB34B986290C758500BD6398 /* Career */ = {
+			isa = PBXGroup;
+			children = (
+				AB34B98B290C75FC00BD6398 /* Models */,
+				AB44EB5527DD53E8005981C1 /* Career.swift */,
+			);
+			path = Career;
+			sourceTree = "<group>";
+		};
+		AB34B987290C759200BD6398 /* EducationAndSkills */ = {
+			isa = PBXGroup;
+			children = (
+				AB34B98A290C75F500BD6398 /* Models */,
+				AB44EB5727DD5400005981C1 /* EducationSkills.swift */,
+			);
+			path = EducationAndSkills;
+			sourceTree = "<group>";
+		};
+		AB34B988290C75A100BD6398 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				AB34B98C290C760100BD6398 /* Models */,
+				AB44EB5F27DD695C005981C1 /* Cells */,
+				AB44EB5927DD5405005981C1 /* Contact.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		AB34B989290C75EF00BD6398 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB34B98D290C761500BD6398 /* AboutMeViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB34B98A290C75F500BD6398 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB34B98B290C75FC00BD6398 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB34B98C290C760100BD6398 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		AB44EB3927DD52E8005981C1 = {
@@ -100,11 +168,10 @@
 		AB44EB5E27DD6944005981C1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AB44EB5F27DD695C005981C1 /* Cells */,
-				AB44EB5327DD5345005981C1 /* AboutMe.swift */,
-				AB44EB5527DD53E8005981C1 /* Career.swift */,
-				AB44EB5727DD5400005981C1 /* EducationSkills.swift */,
-				AB44EB5927DD5405005981C1 /* Contact.swift */,
+				AB34B985290C757C00BD6398 /* AboutMe */,
+				AB34B987290C759200BD6398 /* EducationAndSkills */,
+				AB34B986290C758500BD6398 /* Career */,
+				AB34B988290C75A100BD6398 /* Contact */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +267,7 @@
 				AB44EB5827DD5400005981C1 /* EducationSkills.swift in Sources */,
 				AB44EB5627DD53E8005981C1 /* Career.swift in Sources */,
 				AB44EB5427DD5345005981C1 /* AboutMe.swift in Sources */,
+				AB34B98E290C761500BD6398 /* AboutMeViewModel.swift in Sources */,
 				AB23F0EF284F469700143427 /* CareerCell.swift in Sources */,
 				AB44EB5C27DD5CDB005981C1 /* ContactCell.swift in Sources */,
 				AB44EB4627DD52E9005981C1 /* HeyImMarioApp.swift in Sources */,

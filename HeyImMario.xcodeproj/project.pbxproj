@@ -13,10 +13,10 @@
 		AB44EB4827DD52E9005981C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB4727DD52E9005981C1 /* ContentView.swift */; };
 		AB44EB4A27DD52ED005981C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB44EB4927DD52ED005981C1 /* Assets.xcassets */; };
 		AB44EB4D27DD52ED005981C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB44EB4C27DD52ED005981C1 /* Preview Assets.xcassets */; };
-		AB44EB5427DD5345005981C1 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5327DD5345005981C1 /* AboutMe.swift */; };
-		AB44EB5627DD53E8005981C1 /* Career.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5527DD53E8005981C1 /* Career.swift */; };
-		AB44EB5827DD5400005981C1 /* EducationSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5727DD5400005981C1 /* EducationSkills.swift */; };
-		AB44EB5A27DD5405005981C1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5927DD5405005981C1 /* Contact.swift */; };
+		AB44EB5427DD5345005981C1 /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5327DD5345005981C1 /* AboutMeView.swift */; };
+		AB44EB5627DD53E8005981C1 /* CareerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5527DD53E8005981C1 /* CareerView.swift */; };
+		AB44EB5827DD5400005981C1 /* EducationSkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5727DD5400005981C1 /* EducationSkillsView.swift */; };
+		AB44EB5A27DD5405005981C1 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5927DD5405005981C1 /* ContactView.swift */; };
 		AB44EB5C27DD5CDB005981C1 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5B27DD5CDB005981C1 /* ContactCell.swift */; };
 		AB7CB8C1291317C4000315CF /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7CB8C0291317C4000315CF /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
@@ -29,10 +29,10 @@
 		AB44EB4727DD52E9005981C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB44EB4927DD52ED005981C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB44EB4C27DD52ED005981C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AB44EB5327DD5345005981C1 /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
-		AB44EB5527DD53E8005981C1 /* Career.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Career.swift; sourceTree = "<group>"; };
-		AB44EB5727DD5400005981C1 /* EducationSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationSkills.swift; sourceTree = "<group>"; };
-		AB44EB5927DD5405005981C1 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		AB44EB5327DD5345005981C1 /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
+		AB44EB5527DD53E8005981C1 /* CareerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerView.swift; sourceTree = "<group>"; };
+		AB44EB5727DD5400005981C1 /* EducationSkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationSkillsView.swift; sourceTree = "<group>"; };
+		AB44EB5927DD5405005981C1 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		AB44EB5B27DD5CDB005981C1 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		AB7CB8C0291317C4000315CF /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				AB34B989290C75EF00BD6398 /* Models */,
-				AB44EB5327DD5345005981C1 /* AboutMe.swift */,
+				AB44EB5327DD5345005981C1 /* AboutMeView.swift */,
 			);
 			path = AboutMe;
 			sourceTree = "<group>";
@@ -67,8 +67,9 @@
 		AB34B986290C758500BD6398 /* Career */ = {
 			isa = PBXGroup;
 			children = (
+				AB7CB8C329132285000315CF /* Cells */,
 				AB34B98B290C75FC00BD6398 /* Models */,
-				AB44EB5527DD53E8005981C1 /* Career.swift */,
+				AB44EB5527DD53E8005981C1 /* CareerView.swift */,
 			);
 			path = Career;
 			sourceTree = "<group>";
@@ -77,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				AB34B98A290C75F500BD6398 /* Models */,
-				AB44EB5727DD5400005981C1 /* EducationSkills.swift */,
+				AB44EB5727DD5400005981C1 /* EducationSkillsView.swift */,
 			);
 			path = EducationAndSkills;
 			sourceTree = "<group>";
@@ -87,7 +88,7 @@
 			children = (
 				AB34B98C290C760100BD6398 /* Models */,
 				AB44EB5F27DD695C005981C1 /* Cells */,
-				AB44EB5927DD5405005981C1 /* Contact.swift */,
+				AB44EB5927DD5405005981C1 /* ContactView.swift */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -183,7 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				AB44EB5B27DD5CDB005981C1 /* ContactCell.swift */,
-				AB23F0EE284F469700143427 /* CareerCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -201,6 +201,14 @@
 				AB7CB8C0291317C4000315CF /* SplashScreen.swift */,
 			);
 			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		AB7CB8C329132285000315CF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AB23F0EE284F469700143427 /* CareerCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,11 +282,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB7CB8C1291317C4000315CF /* SplashScreen.swift in Sources */,
-				AB44EB5A27DD5405005981C1 /* Contact.swift in Sources */,
+				AB44EB5A27DD5405005981C1 /* ContactView.swift in Sources */,
 				AB44EB4827DD52E9005981C1 /* ContentView.swift in Sources */,
-				AB44EB5827DD5400005981C1 /* EducationSkills.swift in Sources */,
-				AB44EB5627DD53E8005981C1 /* Career.swift in Sources */,
-				AB44EB5427DD5345005981C1 /* AboutMe.swift in Sources */,
+				AB44EB5827DD5400005981C1 /* EducationSkillsView.swift in Sources */,
+				AB44EB5627DD53E8005981C1 /* CareerView.swift in Sources */,
+				AB44EB5427DD5345005981C1 /* AboutMeView.swift in Sources */,
 				AB34B98E290C761500BD6398 /* AboutMeViewModel.swift in Sources */,
 				AB23F0EF284F469700143427 /* CareerCell.swift in Sources */,
 				AB44EB5C27DD5CDB005981C1 /* ContactCell.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Career: View {
+struct CareerView: View {
     var body: some View {
         NavigationView{
             VStack{
@@ -16,10 +16,10 @@ struct Career: View {
                     .scaledToFit()
                     .frame(width: 160, height: 160)
 				
+				CareerCell(dateTime: "📅 2022 - Present", careerTitle: "iOS Developer @ NTT Data")
+				
 				CareerCell(dateTime: "📅 2021 - 2022", careerTitle: "Hybrid Mobile Developer @ NTT Data")
 				
-				CareerCell(dateTime: "📅 2022 - Present", careerTitle: "iOS Developer @ NTT Data")
-                
                 Spacer()
             }
             .navigationTitle("My Career")
@@ -30,6 +30,6 @@ struct Career: View {
 
 struct Career_Previews: PreviewProvider {
     static var previews: some View {
-		Career()
+		CareerView()
     }
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Contact: View {
+struct ContactView: View {
     
     @Environment(\.openURL) private var openURL
 	
@@ -94,6 +94,6 @@ struct SheetView: View {
 
 struct Contact_Previews: PreviewProvider {
     static var previews: some View {
-        Contact()
+        ContactView()
     }
 }

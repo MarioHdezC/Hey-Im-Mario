@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AboutMe: View {
+struct AboutMeView: View {
 	
 	@ObservedObject var viewModel = AboutMeViewModel()
 	@State private var myAge = 0
@@ -24,7 +24,7 @@ struct AboutMe: View {
                     .font(.title)
                     .padding()
                 
-                Text("A \(myAge) year old software engineer from Spain.\n\nI'm currently working at NTT Data Spain, at the iOS team. \n\nI love mobile app development, especially iOS mobile Apps with SwiftUI and UIKit.\n\nAn absolutly IT passionate who wants to be part of this wonderful community creating helpful apps for everybody.")
+                Text("A \(myAge) year old Software Engineer from Spain.\n\nI'm currently working at NTT Data Spain as an iOS Engineer.\n\nAn absolute IT passionate, constantly learner and a software development enthusiast.")
                     .padding()
                 
                 Spacer()
@@ -40,6 +40,6 @@ struct AboutMe: View {
 
 struct AboutMe_Previews: PreviewProvider {
     static var previews: some View {
-		AboutMe()
+		AboutMeView()
     }
 }

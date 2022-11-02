@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct EducationSkills: View {
+struct EducationSkillsView: View {
     var body: some View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: true) {
@@ -41,12 +41,6 @@ struct EducationSkills: View {
                                 .padding(EdgeInsets(top: 0, leading: 45, bottom: 10, trailing: 10))
                             
                             Text("iOS/Android mobile app development with Ionic & Angular")
-                                .padding(EdgeInsets(top: 0, leading: 45, bottom: 10, trailing: 10))
-                            
-                            Text("iOS/Android mobile app development with Flutter & Dart (Basic Knowledge)")
-                                .padding(EdgeInsets(top: 0, leading: 45, bottom: 10, trailing: 10))
-                            
-                            Text("Web development with Angular & JavaScript")
                                 .padding(EdgeInsets(top: 0, leading: 45, bottom: 10, trailing: 10))
                         }
                         
@@ -83,6 +77,6 @@ struct EducationSkills: View {
 
 struct EducationSkills_Previews: PreviewProvider {
     static var previews: some View {
-		EducationSkills()
+		EducationSkillsView()
     }
 }

@@ -18,6 +18,7 @@
 		AB44EB5827DD5400005981C1 /* EducationSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5727DD5400005981C1 /* EducationSkills.swift */; };
 		AB44EB5A27DD5405005981C1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5927DD5405005981C1 /* Contact.swift */; };
 		AB44EB5C27DD5CDB005981C1 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5B27DD5CDB005981C1 /* ContactCell.swift */; };
+		AB7CB8C1291317C4000315CF /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7CB8C0291317C4000315CF /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		AB44EB5727DD5400005981C1 /* EducationSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationSkills.swift; sourceTree = "<group>"; };
 		AB44EB5927DD5405005981C1 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		AB44EB5B27DD5CDB005981C1 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		AB7CB8C0291317C4000315CF /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		AB44EB5E27DD6944005981C1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AB7CB8BF291317B2000315CF /* SplashScreen */,
 				AB34B985290C757C00BD6398 /* AboutMe */,
 				AB34B987290C759200BD6398 /* EducationAndSkills */,
 				AB34B986290C758500BD6398 /* Career */,
@@ -190,6 +193,14 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		AB7CB8BF291317B2000315CF /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AB7CB8C0291317C4000315CF /* SplashScreen.swift */,
+			);
+			path = SplashScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7CB8C1291317C4000315CF /* SplashScreen.swift in Sources */,
 				AB44EB5A27DD5405005981C1 /* Contact.swift in Sources */,
 				AB44EB4827DD52E9005981C1 /* ContentView.swift in Sources */,
 				AB44EB5827DD5400005981C1 /* EducationSkills.swift in Sources */,

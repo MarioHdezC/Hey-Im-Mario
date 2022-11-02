@@ -11,7 +11,7 @@ import SwiftUI
 struct HeyImMarioApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
         }
     }
 }

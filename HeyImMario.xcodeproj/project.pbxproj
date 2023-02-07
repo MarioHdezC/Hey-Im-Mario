@@ -19,6 +19,8 @@
 		AB44EB5A27DD5405005981C1 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5927DD5405005981C1 /* ContactView.swift */; };
 		AB44EB5C27DD5CDB005981C1 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44EB5B27DD5CDB005981C1 /* ContactCell.swift */; };
 		AB7CB8C1291317C4000315CF /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7CB8C0291317C4000315CF /* SplashScreen.swift */; };
+		ABCD3F662993070F0069F6C0 /* EducationSkillTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD3F652993070F0069F6C0 /* EducationSkillTitle.swift */; };
+		ABCD3F68299307CF0069F6C0 /* EducationSkillItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD3F67299307CF0069F6C0 /* EducationSkillItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		AB44EB5927DD5405005981C1 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		AB44EB5B27DD5CDB005981C1 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		AB7CB8C0291317C4000315CF /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		ABCD3F652993070F0069F6C0 /* EducationSkillTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationSkillTitle.swift; sourceTree = "<group>"; };
+		ABCD3F67299307CF0069F6C0 /* EducationSkillItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationSkillItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,13 +52,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB23F0E9284E0E6000143427 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
 		AB34B985290C757C00BD6398 /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				AB7CB8C329132285000315CF /* Cells */,
-				AB34B98B290C75FC00BD6398 /* Models */,
 				AB44EB5527DD53E8005981C1 /* CareerView.swift */,
 			);
 			path = Career;
@@ -77,7 +73,7 @@
 		AB34B987290C759200BD6398 /* EducationAndSkills */ = {
 			isa = PBXGroup;
 			children = (
-				AB34B98A290C75F500BD6398 /* Models */,
+				ABCD3F64299306FD0069F6C0 /* Cells */,
 				AB44EB5727DD5400005981C1 /* EducationSkillsView.swift */,
 			);
 			path = EducationAndSkills;
@@ -86,7 +82,6 @@
 		AB34B988290C75A100BD6398 /* Contact */ = {
 			isa = PBXGroup;
 			children = (
-				AB34B98C290C760100BD6398 /* Models */,
 				AB44EB5F27DD695C005981C1 /* Cells */,
 				AB44EB5927DD5405005981C1 /* ContactView.swift */,
 			);
@@ -97,27 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				AB34B98D290C761500BD6398 /* AboutMeViewModel.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		AB34B98A290C75F500BD6398 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		AB34B98B290C75FC00BD6398 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		AB34B98C290C760100BD6398 /* Models */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -141,8 +115,6 @@
 		AB44EB4427DD52E9005981C1 /* HeyImMario */ = {
 			isa = PBXGroup;
 			children = (
-				AB23F0E9284E0E6000143427 /* Data */,
-				AB44EB6027DD696C005981C1 /* Models */,
 				AB44EB5D27DD6937005981C1 /* CoreApp */,
 				AB44EB5E27DD6944005981C1 /* Views */,
 				AB44EB4927DD52ED005981C1 /* Assets.xcassets */,
@@ -188,13 +160,6 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		AB44EB6027DD696C005981C1 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		AB7CB8BF291317B2000315CF /* SplashScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +172,15 @@
 			isa = PBXGroup;
 			children = (
 				AB23F0EE284F469700143427 /* CareerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ABCD3F64299306FD0069F6C0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD3F652993070F0069F6C0 /* EducationSkillTitle.swift */,
+				ABCD3F67299307CF0069F6C0 /* EducationSkillItem.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -282,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB7CB8C1291317C4000315CF /* SplashScreen.swift in Sources */,
+				ABCD3F662993070F0069F6C0 /* EducationSkillTitle.swift in Sources */,
 				AB44EB5A27DD5405005981C1 /* ContactView.swift in Sources */,
 				AB44EB4827DD52E9005981C1 /* ContentView.swift in Sources */,
 				AB44EB5827DD5400005981C1 /* EducationSkillsView.swift in Sources */,
@@ -289,6 +264,7 @@
 				AB44EB5427DD5345005981C1 /* AboutMeView.swift in Sources */,
 				AB34B98E290C761500BD6398 /* AboutMeViewModel.swift in Sources */,
 				AB23F0EF284F469700143427 /* CareerCell.swift in Sources */,
+				ABCD3F68299307CF0069F6C0 /* EducationSkillItem.swift in Sources */,
 				AB44EB5C27DD5CDB005981C1 /* ContactCell.swift in Sources */,
 				AB44EB4627DD52E9005981C1 /* HeyImMarioApp.swift in Sources */,
 			);

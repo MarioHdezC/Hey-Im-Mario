@@ -8,7 +8,6 @@
 import Foundation
 
 class AboutMeViewModel: ObservableObject {
-	@Published var yearOld: Int = 0
 	
 	func calculateAge(actualDate: Date) -> Int {
 		let dateFormatter = DateFormatter()
